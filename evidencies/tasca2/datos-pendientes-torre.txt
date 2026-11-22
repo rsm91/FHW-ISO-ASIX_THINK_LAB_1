@@ -1,0 +1,94 @@
+===== VIRTUALIZACIÓN Y NÚCLEOS =====
+Tamaños de las direcciones:               48 bits physical, 48 bits virtual
+Nombre del modelo:                        AMD Ryzen 7 5800X 8-Core Processor
+Hilo(s) de procesamiento por núcleo:      2
+Núcleo(s) por «socket»:                   8
+CPU MHz máx.:                             4851,4712
+Indicadores:                              fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local user_shstk clzero irperf xsaveerptr rdpru wbnoinvd arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca fsrm debug_swap ibpb_exit_to_user
+Virtualización:                           AMD-V
+
+===== MEMORIA RAM =====
+	Error Correction Type: None
+	Maximum Capacity: 128 GB
+	Number Of Devices: 4
+	Size: No Module Installed
+	Locator: DIMM 0
+	Type: Unknown
+	Size: 16 GB
+	Locator: DIMM 1
+	Type: DDR4
+	Speed: 3600 MT/s
+	Manufacturer: Unknown
+	Part Number: F4-3600C16-16GVKC
+	Configured Memory Speed: 3600 MT/s
+	Non-Volatile Size: None
+	Volatile Size: 16 GB
+	Cache Size: None
+	Logical Size: None
+	Size: No Module Installed
+	Locator: DIMM 0
+	Type: Unknown
+	Size: 16 GB
+	Locator: DIMM 1
+	Type: DDR4
+	Speed: 3600 MT/s
+	Manufacturer: Unknown
+	Part Number: F4-3600C16-16GVKC
+	Configured Memory Speed: 3600 MT/s
+	Non-Volatile Size: None
+	Volatile Size: 16 GB
+	Cache Size: None
+	Logical Size: None
+
+===== DISCOS =====
+NAME    MODEL                   TRAN   ROTA   SIZE TYPE
+sda     TOSHIBA HDWD120         sata      1   1,8T disk
+sdb     PSSD X31                usb       0 953,9G disk
+zram0                                     0   7,8G disk
+nvme0n1 Samsung SSD 990 PRO 2TB nvme      0   1,8T disk
+
+===== SALUD DEL DISCO DE CLASE (sdb) =====
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-139-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+/dev/sdb: Unknown USB bridge [0x152e:0x7001 (0x100)]
+Please specify device type with the -d option.
+
+Use smartctl -h to get a usage summary
+
+
+===== SALUD DEL NVMe =====
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-139-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Number:                       Samsung SSD 990 PRO 2TB
+Serial Number:                      S6Z2NJ0W608898Z
+Firmware Version:                   3B2QJXD7
+PCI Vendor/Subsystem ID:            0x144d
+IEEE OUI Identifier:                0x002538
+Total NVM Capacity:                 2.000.398.934.016 [2,00 TB]
+Unallocated NVM Capacity:           0
+Controller ID:                      1
+NVMe Version:                       2.0
+Number of Namespaces:               1
+Namespace 1 Size/Capacity:          2.000.398.934.016 [2,00 TB]
+Namespace 1 Utilization:            155.907.182.592 [155 GB]
+Namespace 1 Formatted LBA Size:     512
+Namespace 1 IEEE EUI-64:            002538 463140977b
+Local Time is:                      Sun Nov 22 18:24:10 2026 CET
+
+=== START OF SMART DATA SECTION ===
+SMART overall-health self-assessment test result: PASSED
+
+
+===== TARJETA GRÁFICA =====
+0a:00.0 VGA compatible controller: NVIDIA Corporation GM206 [GeForce GTX 960] (rev a1)
+
+===== BIOS Y PLACA BASE =====
+	Vendor: American Megatrends International, LLC.
+	Version: F7c
+	Release Date: 09/20/2023
+	Manufacturer: Gigabyte Technology Co., Ltd.
+	Product Name: X570S AORUS ELITE AX
+	Version: x.x
